@@ -15,6 +15,8 @@ public class Main {
 	toss.Throw();
 	System.out.println(currentdice.Value());
 	
+	System.out.println(toss.Throw(2));
+	
 	
 	}
 	
