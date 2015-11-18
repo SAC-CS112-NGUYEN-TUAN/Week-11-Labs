@@ -15,9 +15,11 @@ public class Main {
 	toss.Throw();
 	System.out.println(currentdice.Value());
 	
-	System.out.println(toss.Throw(2));
+	System.out.println("Average of bounces :"+toss.Throw(10));
 	
+	System.out.println("one throw (stactic):"+Dices.OneThrow());
 	
+	System.out.println("dices and bounces: "+toss.Throw(3,3));
 	}
 	
 
